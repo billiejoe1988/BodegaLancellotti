@@ -1,13 +1,18 @@
-import './App.css'
-import Bodega from './pages/Bodega'
+import React from 'react';
+import RouterMain from './routes/RouterMain';
+import Contacto from './components/contacto';
 
 function App() {
-
   return (
-    <>
-      <Bodega />
-    </>
-  )
+      <>
+        <main>
+          <RouterMain />
+        </main>
+        <footer className='pt-5'>
+          <Contacto />
+        </footer>
+      </>
+  );
 }
 
-export default App
+export default App;
