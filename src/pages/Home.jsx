@@ -1,6 +1,7 @@
 import React from 'react';
 import './home.css';
-import homeImage from '/home.svg'; 
+import homeImage from '/home.svg';
+import visitas from '../components/visitas'; 
 
 const Home = () => {
   return (
