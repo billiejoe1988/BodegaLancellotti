@@ -15,7 +15,7 @@ const Bodega = () => {
             <img src={imagen2} alt="Imagen 2" className="bodega-img" />
           </div>
           <div className="text-container">
-            <h2>Reseña de la historia de Bodega Lancellotti</h2>
+            <h2>Bodega Lancellotti</h2>
             <p>
               La historia de Bodega Lancellotti inicia en la línea del tiempo de vides y parrales en el año 2005, cuando Rodolfo y María Urbana eligieron hacer realidad el sueño de una 
               copa de vino, un sueño que germinó en el seno de una familia, unida por los aromas del amor y del esfuerzo.
@@ -30,7 +30,7 @@ const Bodega = () => {
         </section>
         <section className="container">
           <div className="text-container">
-            <h2>Descripción del proceso de fabricación del vino</h2>
+            <h2>proceso de fabricación del vino</h2>
             <p>
               En la finca se utiliza el sistema de conducción de espaldero alto de 1,80 metros y parral. Puede verse cómo los granos de uva, protegidos por el sol, 
               cuelgan de ese techo verde como campanas. El riego se realiza a través de un sistema denominado “a manto”; el agua, que proviene del deshielo de la 

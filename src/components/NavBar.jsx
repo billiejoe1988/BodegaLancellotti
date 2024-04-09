@@ -15,14 +15,14 @@ export const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Bodega</Nav.Link>
-            <Nav.Link href="#link">Perspicaz</Nav.Link>
-            <Nav.Link href="#link">Familia</Nav.Link>
-            <Nav.Link href="#link">Visitas</Nav.Link>
-            <Nav.Link href="#link">La Cautiva</Nav.Link>
-            <Nav.Link href="#link">Zaphiro Eventos</Nav.Link>
-            <Nav.Link href="#link">Contacto</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/bodega">Bodega</Nav.Link>
+            <Nav.Link href="#perspicaz">Perspicaz</Nav.Link>
+            <Nav.Link href="#familia">Familia</Nav.Link>
+            <Nav.Link href="#visitas">Visitas</Nav.Link>
+            <Nav.Link href="#la-cautiva">La Cautiva</Nav.Link>
+            <Nav.Link href="#zaphiro-eventos">Zaphiro Eventos</Nav.Link>
+            <Nav.Link href="#contacto">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
