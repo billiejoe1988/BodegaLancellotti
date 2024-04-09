@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #fff; 
+    color: #C96939;
+    font-size: 0.8rem;
+  }
+  
+  .navbar-brand {
+    margin-right: 2rem; 
+  }
+  
+  .nav-link {
+    color:  #31190D;
+    cursor: pointer; 
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+    color: #C96939;
+    text-decoration-thickness: 2px; 
+    text-underline-offset: 0.2em; 
+  }
+  
+  
