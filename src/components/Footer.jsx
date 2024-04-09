@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="contact-item">
-                            <img src={logo} alt="Logo de la empresa" style={{ width: '100px', marginBottom: '10px' }} />
+                            <img src={logo} alt="Logo de la empresa" style={{ width: '300px', marginBottom: '10px' }} />
                             <p>
                                 <span>
                                     <i className="fa fa-map-marker"></i> Dirección
@@ -37,7 +37,7 @@ const Footer = () => {
                     <div className="col-md-6">
                         <h2>Ubicación</h2>
                         <iframe
-                            title="Mapa de Google"
+                            title="Bodega lancellotti"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15981.207401122138!2d-68.3310119765147!3d-32.68618404498298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967b0d68b2a132cf%3A0x68db9517b659d037!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1sen!2sar!4v1648971118507!5m2!1sen!2sar"
                             width="100%"
                             height="300"

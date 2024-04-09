@@ -18,9 +18,9 @@ body {
   
   h2 {
     font-family: 'Libre Baskerville', serif;
-    font-size: 24px;
+    font-size: 28px;
     color: #C96939; 
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   
   p {
@@ -32,7 +32,34 @@ body {
     height: auto;
     display: block;
     margin-top: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+  }
+  img:hover {
+    transform: scale(1.05);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .img-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .bodega-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8p
+  }
+  
+  .text-container {
+    flex: 1;
   }
   
