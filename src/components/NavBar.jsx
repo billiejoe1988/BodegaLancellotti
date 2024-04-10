@@ -11,13 +11,13 @@ export const NavBar = () => {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
       <Navbar.Brand href="/" style={{ marginTop: '-1.5rem' }}>
-          <Image src={Logo} alt="Logo" width="100" height="100" />
-        </Navbar.Brand>
+        <Image src={Logo} alt="Logo" width="100" height="100" style={{ boxShadow: 'none' }} />
+      </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/bodega" className="pr-5 ">Bodega</Nav.Link>
+            <Nav.Link href="/pages/bodega" className="pr-5 ">Bodega</Nav.Link>
             <Nav.Link href="#perspicaz">Perspicaz</Nav.Link>
             <Nav.Link href="#familia">Familia</Nav.Link>
             <Nav.Link href="#visitas">Visitas</Nav.Link>

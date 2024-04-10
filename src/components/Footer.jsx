@@ -7,13 +7,13 @@ const Footer = () => {
     return (
         <footer style={{ backgroundImage: `url(${fondoFooter})`, backgroundSize: 'cover' }}>
             <div className="footer-container">
-                <div className="contact-container card" style={{ backgroundColor: '#EADFCD', borderRadius: '10px', padding: '10px'}}>
-                    <div className="contact-item " >
+                <div className="contact-container card" style={{ backgroundColor: '#EADFCD', borderRadius: '10px', padding: '10px'}} >
+                    <div className="contact-item" >
                         <h2>Contacto</h2>
                         <p>
                             <span>
                                 <i className="fa fa-map-marker"></i> Dirección
-                            </span>
+                            </span> 
                             Cuitiño 991 esquina, RN7, M5570 San Martín, Mendoza
                         </p>
                     </div>
@@ -21,7 +21,7 @@ const Footer = () => {
                         <p>
                             <span>
                                 <i className="fa fa-whatsapp"></i> WhatsApp
-                            </span>{" "}
+                            </span>
                             <a href="https://wa.me/+542634419048">+54 2634419048</a>
                         </p>
                     </div>
@@ -29,7 +29,7 @@ const Footer = () => {
                         <p>
                             <span>
                                 <i className="fa fa-envelope-o"></i> Email
-                            </span>{" "}
+                            </span>
                             <a href="mailto:bodega@zafiro.com">bodega@zafiro.com</a>
                         </p>
                     </div>

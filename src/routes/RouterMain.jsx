@@ -8,7 +8,7 @@ const RouterMain = () => {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/bodega' element={<Bodega />} />
+        <Route path='/pages/bodega' element={<Bodega />} />
         <Route path='*' element={<h1>404 NOT FOUND</h1>} />
       </Routes>
     </BrowserRouter>

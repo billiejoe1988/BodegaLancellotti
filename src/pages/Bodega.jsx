@@ -8,12 +8,8 @@ import imagen4 from '/img/bodega4.jpg';
 const Bodega = () => {
   return (
     <>
-      <main className='my-20'>
+      <main>
         <section className="container">
-          <div className="img-container">
-            <img src={imagen1} alt="Imagen 1" className="bodega-img" />
-            <img src={imagen2} alt="Imagen 2" className="bodega-img" />
-          </div>
           <div className="text-container">
             <h2>Bodega Lancellotti</h2>
             <p>
@@ -26,6 +22,10 @@ const Bodega = () => {
               bodega. En el año 2019-2020 se concluye la primera etapa del establecimiento, denominado “Bodega Lancellotti” y se realiza la primera vendimia en la que participa toda la 
               familia.
             </p>
+          </div>
+          <div className="img-container">
+            <img src={imagen1} alt="Imagen 1" className="bodega-img" />
+            <img src={imagen2} alt="Imagen 2" className="bodega-img" />
           </div>
         </section>
         <section className="container">
