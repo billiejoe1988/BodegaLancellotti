@@ -7,7 +7,7 @@ const visitas = () => {
     return (
         <>
             <div>
-                <h1>VISITAS</h1>
+                <h2>VISITAS</h2>
             </div>
             <div>
                 <div id="carouselExampleDark" class="carousel carousel-dark slide">

@@ -1,8 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home.jsx';
-import Bodega from '../pages/Bodega';
-import visitas from '../components/visitas.jsx';
+import Bodega from '../pages/Bodega.jsx';
 
 const RouterMain = () => {
   return (
@@ -10,7 +9,6 @@ const RouterMain = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/bodega' element={<Bodega />} />
-        <Route path='/visitas' element={<visitas />} />
         <Route path='*' element={<h1>404 NOT FOUND</h1>} />
       </Routes>
     </BrowserRouter>
