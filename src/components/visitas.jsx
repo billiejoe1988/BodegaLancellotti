@@ -1,74 +1,88 @@
 import React from "react"
-import imagenA from '/uva.png';
-import imagenB from '/img/visita1.jpg';
-import imagenC from '/img/visita2.jpg';
+import { useState } from 'react';
+import Carousel from 'react-bootstrap/Carousel';
+import Accordion from 'react-bootstrap/Accordion';
 
 const visitas = () => {
+    const [index, setIndex] = useState(0);
+
+    const handleSelect = (selectedIndex) => {
+        setIndex(selectedIndex);
+    };
     return (
         <>
-            <div>
-                <h2>VISITAS</h2>
+            <div className="container">
+                <section className="nosotros">
+                    <div className="nosotros-content">
+                        <h2>Visitas</h2>
+                        <p>
+                            Bodega Lancellotti es una empresa familiar apasionada por el vino. Por ello queremos compartir con nuestros clientes la experiencia de conocer y degustar los mejores vinos de la región y ademas de poder recorrer nuestros viñedos.
+
+                        </p>
+                    </div>
+                    <div className="carousel-container">
+                        <Carousel activeIndex={index} onSelect={handleSelect}>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src="/uva.png"
+                                    alt="First slide"
+                                    style={{ maxHeight: '400px', objectFit: 'cover' }}
+                                />
+                                <Carousel.Caption>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src="/img/visita1.jpg"
+                                    alt="Second slide"
+                                    style={{ maxHeight: '400px', objectFit: 'cover' }}
+                                />
+                                <Carousel.Caption>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src="/img/visita2.jpg"
+                                    alt="Third slide"
+                                    style={{ maxHeight: '400px', objectFit: 'cover' }}
+                                />
+                                <Carousel.Caption>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                        </Carousel>
+                    </div>
+                </section>
             </div>
-            <div>
-                <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="10000">
-                            <img src={imagenA} class="d-block w-100" alt="..." />
-                            <div class="carousel-caption d-none d-md-block">
-                            </div>
-                        </div>
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <img src={imagenB} class="d-block w-100" alt="..." />
-                            <div class="carousel-caption d-none d-md-block">
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src={imagenC} class="d-block w-100" alt="..." />
-                            <div class="carousel-caption d-none d-md-block">
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-            <div>
-                <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                Visita guiada Bodega
-                            </button>
-                        </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">texto descriptivo de la visita</div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                Visita guiada viñedo
-                            </button>
-                        </h2>
-                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">texto descriptivo de la visita</div>
-                        </div>
-                    </div>
-                </div>
+            <div className="container">
+                <section>
+                    <Accordion defaultActiveKey="0">
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header>Visitas a la Bodega</Accordion.Header>
+                            <Accordion.Body>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat.
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="1">
+                            <Accordion.Header>Visitas al Viñedo</Accordion.Header>
+                            <Accordion.Body>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat. 
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
+                </section >
             </div>
         </>
     )
-}
+};
+
 
 export default visitas

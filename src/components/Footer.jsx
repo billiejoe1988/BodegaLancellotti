@@ -51,7 +51,7 @@ const Footer = () => {
                     <img src={logo} alt="Logo de la empresa" style={{ width: '200px', marginBottom: '10px' }} />
                 </div>
             <div className="copyright">
-                <p>&copy; 2024 Bodega Lancellotti. Todos los derechos reservados. Beber con moderación y prohibida su venta a menores de 18 años.</p>
+                <p className="copyright">&copy; 2024 Bodega Lancellotti. Todos los derechos reservados. Beber con moderación, prohibida su venta a menores de 18 años.</p>
             </div>
         </footer>
     );
