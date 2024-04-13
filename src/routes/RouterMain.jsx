@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from '../pages/Home.jsx';
-import Bodega from '../pages/Bodega.jsx';
+import * as ReactDOM from "react-dom/client";
+import Home from '../pages/Home';
+import Bodega from '../pages/Bodega';
 
 const RouterMain = () => {
   return (

@@ -12,7 +12,7 @@ function App() {
         <main>
           <RouterMain />
          </main>
-        <footer className='pt-5'>
+        <footer>
           <Footer />
         </footer>
       </>
