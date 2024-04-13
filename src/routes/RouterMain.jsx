@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import * as ReactDOM from "react-dom/client";
 import Home from '../pages/Home';
 import Bodega from '../pages/Bodega';
 

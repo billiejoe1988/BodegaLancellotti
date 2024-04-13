@@ -24,7 +24,7 @@ export const NavBar = () => {
               <NavDropdown.Item href="#zaphiro-eventos">Zaphiro Eventos</NavDropdown.Item>
               <NavDropdown.Item href="#footer">Contacto</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to="/bodega" className="nav-link pr-5">Bodega</Nav.Link>
+            <Nav.Link href="/bodega" className="nav-link pr-5">Bodega</Nav.Link>
             <Nav.Link href="https://google.com" target="_blank" rel="noopener noreferrer">La Cautiva</Nav.Link>
           </Nav>
         </Navbar.Collapse>
