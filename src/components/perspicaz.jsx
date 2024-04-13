@@ -5,6 +5,11 @@ const Perspicaz = () => {
   return (
     <section className="container perspicaz-container">
       <h2 className="section-title">Vinos</h2>
+      <div>
+        <p>Perspicaz, Nuestro nuevo lanzamiento, Bonarda 2023, cosecha manual con uvas producto de nuestro vinedos a parti de la segunda semana de marzo
+          obteniendo  una concentracion de asucar de 23 Brix y extraido suave, luego del comienzo del proceso de fermetancion en tanques de acero inoxidable a temperatura controlada.
+        </p>
+      </div>
       <div className="row">
         <div className="col-lg-6">
           <div className="card perspicaz-card">

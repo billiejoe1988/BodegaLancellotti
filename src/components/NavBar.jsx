@@ -2,7 +2,7 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Image, NavDropdown } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import Logo from '/logoB.png'; 
 import './navbar.css'
 
@@ -16,14 +16,14 @@ export const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
-            <NavDropdown title="Home" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#familia">Familia</NavDropdown.Item>
-              <NavDropdown.Item href="#perspicazz">Perspicaz</NavDropdown.Item>
-              <NavDropdown.Item href="#visitas">Visitas</NavDropdown.Item>
-              <NavDropdown.Item href="#zaphiro-eventos">Zaphiro Eventos</NavDropdown.Item>
-              <NavDropdown.Item href="#footer">Contacto</NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="/bodega" className="nav-link pr-5">Bodega</Nav.Link>
+            <Nav.Link href="#familia">Familia</Nav.Link>
+            <Nav.Link href="#perspicazz">Perspicaz</Nav.Link>
+            <Nav.Link href="#bodega">Bodega</Nav.Link>
+            <Nav.Link href="#visitas">Visitas</Nav.Link>
+            <Nav.Link href="#zaphiro-eventos">Zaphiro Eventos</Nav.Link>
+            <Nav.Link href="#imagenes">Imagenes</Nav.Link>
+          </Nav>
+          <Nav>
             <Nav.Link href="https://google.com" target="_blank" rel="noopener noreferrer">La Cautiva</Nav.Link>
           </Nav>
         </Navbar.Collapse>
@@ -33,4 +33,3 @@ export const NavBar = () => {
 }
 
 export default NavBar;
-
