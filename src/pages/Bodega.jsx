@@ -1,9 +1,9 @@
 import React from 'react';
 import './bodega.css';
-import imagen1 from '/img/bodega1.jpg';
-import imagen2 from '/img/bodega2.jpg'; 
-import imagen3 from '/img/bodega3.jpg';
-import imagen4 from '/img/bodega4.jpg';
+import imagen1 from '/bodega1.jpg';
+import imagen2 from '/bodega2.jpg'; 
+import imagen3 from '/bodega3.jpg';
+import imagen4 from '/bodega4.jpg';
 
 const Bodega = () => {
   return (
