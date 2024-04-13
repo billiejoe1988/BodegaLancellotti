@@ -33,4 +33,31 @@
     color: #31190D; 
   }
   
+  .section-title {
+    color: #C96939; 
+    font-family: 'Libre Baskerville', serif; 
+  }
+  
+  .perspicaz-card {
+    border-radius: 10px;
+    background-color: #FAF7F2; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+  }
+  
+  .card-title {
+    color: #31190D;
+  }
+  
+  .card-text {
+    color: #31190D; 
+    font-family: 'Libre Baskerville', serif; 
+  }
+  
+  .dedication {
+    color: #31190D; 
+    font-style: italic; 
+    margin-top: 30px; 
+  }
+  
   
