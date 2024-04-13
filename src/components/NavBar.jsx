@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Image, NavDropdown } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Logo from '/logoB.png'; 
 import './navbar.css'
 
@@ -23,8 +24,8 @@ export const NavBar = () => {
               <NavDropdown.Item href="#zaphiro-eventos">Zaphiro Eventos</NavDropdown.Item>
               <NavDropdown.Item href="#footer">Contacto</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link to={"/bodega"} className="pr-5">Bodega</Nav.Link>
-            <Nav.Link to={"https://tuweb.com/la-cautiva"} target="_blank" rel="noopener noreferrer">La Cautiva</Nav.Link>
+            <Nav.Link as={Link} to="/bodega" className="nav-link pr-5">Bodega</Nav.Link>
+            <Nav.Link href="https://google.com" target="_blank" rel="noopener noreferrer">La Cautiva</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
