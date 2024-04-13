@@ -7,7 +7,6 @@ import imagen4 from '/bodega4.jpg';
 
 const Bodega = () => {
   return (
-    <>
       <main>
         <section className="container">
           <div className="text-container">
@@ -46,7 +45,6 @@ const Bodega = () => {
           </div>
         </section>
       </main>
-    </>
   );
 }
 
