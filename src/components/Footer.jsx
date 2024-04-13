@@ -5,7 +5,7 @@ import './footer.css'
 
 const Footer = () => {
     return (
-        <footer style={{ backgroundImage: `url(${fondoFooter})`, backgroundSize: 'cover' }}>
+        <footer id="footer" style={{ backgroundImage: `url(${fondoFooter})`, backgroundSize: 'cover' }}>
             <div className="footer-container">
                 <div className="contact-container card" style={{ backgroundColor: '#EADFCD', borderRadius: '10px', padding: '10px'}} >
                     <div className="contact-item" >
