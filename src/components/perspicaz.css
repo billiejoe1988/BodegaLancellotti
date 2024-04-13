@@ -12,9 +12,7 @@
   .banner,
   .card {
     animation: slideIn 1s ease forwards;
-    border-radius: 10px;
-    background-color: #FAF7F2; 
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
     padding: 20px; 
     margin-bottom: 20px; 
   }
@@ -22,13 +20,8 @@
   .card:nth-child(odd) {
     animation-delay: 0.5s; 
   }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Libre Baskerville', serif;
-    color: #31190D; 
-  }
-  
-  p {
+
+  .card-text {
     font-family: 'Libre Baskerville', serif; 
     color: #31190D; 
   }
@@ -40,7 +33,7 @@
   
   .perspicaz-card {
     border-radius: 10px;
-    background-color: #FAF7F2; 
+    background-color: #EADFCD; 
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
     margin-bottom: 20px; 
   }
@@ -49,15 +42,13 @@
     color: #31190D;
   }
   
-  .card-text {
-    color: #31190D; 
-    font-family: 'Libre Baskerville', serif; 
-  }
-  
   .dedication {
     color: #31190D; 
     font-style: italic; 
     margin-top: 30px; 
+  }
+  .notas-degustacion {
+    color: #C96939; 
   }
   
   

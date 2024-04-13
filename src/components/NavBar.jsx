@@ -18,7 +18,7 @@ export const NavBar = () => {
           <Nav className="mx-auto">
             <NavDropdown title="Home" id="basic-nav-dropdown">
               <NavDropdown.Item href="#familia">Familia</NavDropdown.Item>
-              <NavDropdown.Item href="#perspicaz">Perspicaz</NavDropdown.Item>
+              <NavDropdown.Item href="#perspicazz">Perspicaz</NavDropdown.Item>
               <NavDropdown.Item href="#visitas">Visitas</NavDropdown.Item>
               <NavDropdown.Item href="#zaphiro-eventos">Zaphiro Eventos</NavDropdown.Item>
               <NavDropdown.Item href="#footer">Contacto</NavDropdown.Item>
