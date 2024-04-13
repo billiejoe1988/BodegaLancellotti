@@ -3,7 +3,7 @@ import './home.css';
 import homeImage from '/home.jpg';
 import Visitas from '../components/visitas'; 
 import Nosotros from './../components/nosotros';
-import Perspicaz from '../components/perspicaz'
+import Perspicaz from '../components/perspicaz';
 
 const Home = () => {
   return (
