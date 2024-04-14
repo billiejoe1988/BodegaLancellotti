@@ -62,19 +62,24 @@ const visitas = () => {
                         <Accordion.Item eventKey="0">
                             <Accordion.Header>Visitas a la Bodega</Accordion.Header>
                             <Accordion.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat.
+                            Bodega Lancellotti ofrece una experiencia única para los visitantes. Un espacio donde se puede disfrutar de la naturaleza, de la gastronomía y de la cultura. Podras hacer una visita guiada por el viñedo, conocer la historia de la bodega, los procesos de elaboración de los vinos y degustar los mismos junto a comidas que maridan perfectamente con las diferentes cepas de vino.
+                            <div>
+                            <a href="#footer">Contacto</a>
+                            </div>
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
-                            <Accordion.Header>Visitas al Viñedo</Accordion.Header>
+                            <Accordion.Header>Hospedaje La Cautiva</Accordion.Header>
                             <Accordion.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. 
+
+                                “La Cautiva” es otro de los espacios de este emprendimiento familiar. Un hospedaje diseñado para el descanso y el disfrute del turismo que nos visita. Su nombre tiene la fuerza de la montaña, del sol, del aire del este mendocino. Su arquitectura protege lo tradicional, como la galería custodiada por verdes enredaderas en ciertas estaciones del año.
+                                <div>
+                                <a href="https://www.example.com" target="_blank">La Cautiva</a>
+                                </div>
+
+
+
+
                             </Accordion.Body>
                         </Accordion.Item>
                     </Accordion>
