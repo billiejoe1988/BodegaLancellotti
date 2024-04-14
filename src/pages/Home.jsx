@@ -19,7 +19,7 @@ const Home = () => {
         <section id="perspicazz"> <Perspicaz /> </section>
         <section id="bodega"> <Bodega /> </section>
         <section id="visitas"> <Visitas /> </section>
-        <section id="zaphiro-eventos"><Zaphiro /></section>
+        <section id="zafiro-eventos"><Zaphiro /></section>
         <section id="imagenes"> <Imagenes /> </section>
       </main>
     </>

@@ -20,8 +20,9 @@ export const NavBar = () => {
             <Nav.Link href="#perspicazz">Perspicaz</Nav.Link>
             <Nav.Link href="#bodega">Bodega</Nav.Link>
             <Nav.Link href="#visitas">Visitas</Nav.Link>
-            <Nav.Link href="#zaphiro-eventos">Zaphiro Eventos</Nav.Link>
+            <Nav.Link href="#zafiro-eventos">Zafiro Eventos</Nav.Link>
             <Nav.Link href="#imagenes">Imagenes</Nav.Link>
+            <Nav.Link href="#footer">Contacto</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="https://google.com" target="_blank" rel="noopener noreferrer">La Cautiva</Nav.Link>

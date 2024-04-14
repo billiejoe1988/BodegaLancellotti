@@ -41,7 +41,7 @@ const Nosotros = () => {
                 style={{ maxHeight: '400px', objectFit: 'cover' }}
               />
               <Carousel.Caption>
-                <h3>Disfrutala de Dia</h3>
+                <h3>Disfruta de Dia</h3>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
