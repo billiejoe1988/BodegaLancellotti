@@ -4,7 +4,9 @@ import './perspicaz.css';
 const Perspicaz = () => {
   return (
     <section className="container perspicaz-container">
-      <h2 className="section-title">Vinos</h2>
+      <div className="logoPerspicaz py-5">
+          <img src="/Perspicaz.png" className="log-img" alt="Vino 1" />
+      </div>
       <div>
         <p>Perspicaz Bonarda 2024, nuestro nuevo lanzamiento,  es una cosecha manual con uvas provenientes de nuestros viñedos, a partir de la segunda semana de marzo. 
           Obtenemos una concentración de azúcar de 23 Brix y extraemos suavemente, después de iniciar el proceso de fermentación en tanques de acero inoxidable a temperatura controlada.

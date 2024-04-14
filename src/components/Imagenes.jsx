@@ -10,8 +10,8 @@ const Imagenes = () => {
   };
 
   return (
-    <section className='py-5'>
-          <div>
+    <section className='py-5 mt-5'>
+          <div className='mt-5'>
             <h2>Imagenes</h2>
           </div>
           <Carousel activeIndex={index} onSelect={handleSelect}>
