@@ -2,6 +2,7 @@ import React from "react"
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { Accordion, Card } from 'react-bootstrap';
+import './visitas.css'
 
 
 const visitas = () => {
@@ -12,6 +13,7 @@ const visitas = () => {
     };
     return (
         <>
+        <section style={{ backgroundColor: '#EADFCD' }}>
             <div className="container nosotros-content nosotros ">
                 <div className="nosotros-content">
                     <div className="nosotros">
@@ -65,7 +67,7 @@ const visitas = () => {
                     </section>
                 </div>
                 <div className="container">
-                    <section>
+                    <section >
                         <Accordion defaultActiveKey="0">
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header>Visitas a la Bodega</Accordion.Header>
@@ -96,6 +98,8 @@ const visitas = () => {
 
                 </div>
             </div>
+            
+            </section>
         </>
     )
 };

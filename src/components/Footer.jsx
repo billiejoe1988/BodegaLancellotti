@@ -7,20 +7,20 @@ const Footer = () => {
     return (
         <footer id="footer" style={{ backgroundImage: `url(${fondoFooter})`, backgroundSize: 'cover' }}>
             <div className="footer-container">
-                <div className="contact-container card" style={{ backgroundColor: '#EADFCD', borderRadius: '10px', padding: '10px'}} >
+                <div className="contact-container card" style={{ backgroundColor: '#EADFCD', borderRadius: '10px', padding: '10px' }} >
                     <div className="contact-item" >
                         <h2>Contacto</h2>
                         <p>
                             <span>
-                                <i className="fa fa-map-marker"></i> Dirección
-                            </span> 
+                                <i className="fa fa-map-marker"></i> Dirección:
+                            </span>
                             Cuitiño 991 esquina, RN7, M5570 San Martín, Mendoza
                         </p>
                     </div>
                     <div className="contact-item">
                         <p>
                             <span>
-                                <i className="fa fa-whatsapp"></i> WhatsApp
+                                <i className="fa fa-whatsapp"></i> WhatsApp:
                             </span>
                             <a href="https://wa.me/+542634419048">+54 2634419048</a>
                         </p>
@@ -28,17 +28,17 @@ const Footer = () => {
                     <div className="contact-item">
                         <p>
                             <span>
-                                <i className="fa fa-envelope-o"></i> Email
+                                <i className="fa fa-envelope-o"></i> Email:
                             </span>
                             <a href="mailto:bodega@zafiro.com">bodega@zafiro.com</a>
                         </p>
                     </div>
                 </div>
-                <section className="map-containercard" style={{ backgroundColor: '#EADFCD', borderRadius: '10px', padding: '12px', marginTop: '100px'}}>
+                <section className="map-containercard" style={{ backgroundColor: '#EADFCD', borderRadius: '10px', padding: '12px', marginTop: '100px' }}>
                     <h2>Ubicación</h2>
                     <iframe
                         title="Bodega lancellotti"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15981.207401122138!2d-68.3310119765147!3d-32.68618404498298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967b0d68b2a132cf%3A0x68db9517b659d037!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1sen!2sar!4v1648971118507!5m2!1sen!2sar"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22484.304922252453!2d-68.37531794509552!3d-33.100882474332025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e5aca74cc9151%3A0x89d3017090764f11!2sLa%20Cautiva%20-%20Turismo%20Rural!5e0!3m2!1ses!2sar!4v1713104683886!5m2!1ses!2sar" 
                         width="100%"
                         height="200"
                         style={{ border: 0, borderRadius: '5px' }}
@@ -48,8 +48,8 @@ const Footer = () => {
                 </section>
             </div>
             <div className="logo-container">
-                    <img src={logo} alt="Logo de la empresa" style={{ width: '200px', marginBottom: '10px' }} />
-                </div>
+                <img src={logo} alt="Logo de la empresa" style={{ width: '200px', marginBottom: '10px' }} />
+            </div>
             <div className="copyright">
                 <p className="copyright">&copy; 2024 Bodega Lancellotti. Todos los derechos reservados. Beber con moderación, prohibida su venta a menores de 18 años.</p>
             </div>
