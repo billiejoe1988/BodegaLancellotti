@@ -36,7 +36,7 @@ const visitas = () => {
                                             className="d-block w-100"
                                             src="/uva.png"
                                             alt="First slide"
-                                            style={{ maxHeight: '400px', objectFit: 'cover' }}
+                                            style={{ maxHeight: '400px', maxWidth: '800px', objectFit: 'contain' }}
                                         />
                                         <Carousel.Caption>
                                         </Carousel.Caption>
@@ -44,9 +44,9 @@ const visitas = () => {
                                     <Carousel.Item>
                                         <img
                                             className="d-block w-100"
-                                            src="/img/visita1.jpg"
+                                            src="/img/visita.jpg"
                                             alt="Second slide"
-                                            style={{ maxHeight: '400px', objectFit: 'cover' }}
+                                            style={{ maxHeight: '400px', maxWidth: '800px', objectFit: 'contain' }}
                                         />
                                         <Carousel.Caption>
                                         </Carousel.Caption>
@@ -54,9 +54,9 @@ const visitas = () => {
                                     <Carousel.Item>
                                         <img
                                             className="d-block w-100"
-                                            src="/img/visita2.jpg"
+                                            src="/img/visita3.jpg"
                                             alt="Third slide"
-                                            style={{ maxHeight: '400px', objectFit: 'cover' }}
+                                            style={{ maxHeight: '400px', maxWidth: '800px', objectFit: 'contain' }}
                                         />
                                         <Carousel.Caption>
                                         </Carousel.Caption>
@@ -67,7 +67,7 @@ const visitas = () => {
                     </section>
                 </div>
                 <div className="container">
-                    <section >
+                    <section style={{ color: '#EADFCD' }}  >
                         <Accordion defaultActiveKey="0">
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header>Visitas a la Bodega</Accordion.Header>

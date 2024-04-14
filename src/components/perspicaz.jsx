@@ -4,7 +4,7 @@ import './perspicaz.css';
 const Perspicaz = () => {
   return (
     <section className="container perspicaz-container">
-      <div className="logoPerspicaz py-5">
+      <div className="logoPerspicaz py-5 seccion-con-fondo-1">
           <img src="/Perspicaz.png" className="log-img" alt="Vino 1" />
       </div>
       <div>
@@ -19,7 +19,7 @@ const Perspicaz = () => {
               <div className="col-md-5">
                 <img src="/p1.png" className="card-img" alt="Vino 1" />
               </div>
-              <div className="col-md-7">
+              <div className="col-md-7 ">
                 <div className="card-body">
                   <h5 className="card-title notas-degustacion">Perspicaz - Bonarda 2024</h5>
                   <p className="card-text py-2">Vino joven, fresco y frutado que invita a seguir bebiendo.<br />
@@ -52,7 +52,7 @@ const Perspicaz = () => {
           </div>
         </div>
       </div>
-      <h4 className="dedication">"Dedicado a nuestro padre Don Rodolfo José Lancellotti, un hombre capaz de percatarse de cosas que pasan inadvertidas para los demás. ¡Salud!"</h4>
+      <h4 className="dedication ">"Dedicado a nuestro padre Don Rodolfo José Lancellotti, un hombre capaz de percatarse de cosas que pasan inadvertidas para los demás. ¡Salud!"</h4>
     </section>
   );
 }

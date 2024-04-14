@@ -21,3 +21,17 @@
 .bodega-img:hover {
   transform: scale(1.05);
 }
+
+.seccion-con-fondo{
+  background-image: url('/detailR.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.seccion-con-fondo-1{
+  background-image: url('/detail.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}

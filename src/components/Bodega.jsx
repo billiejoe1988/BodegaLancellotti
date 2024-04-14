@@ -6,7 +6,7 @@ import imagen4 from '/bodega4.jpg';
 const Bodega = () => {
   return (
     <div className="container">
-      <section className="text-container">
+      <section className="text-container seccion-con-fondo">
         <h2>Bodega Lancellotti</h2>
         <p>
           La historia de Bodega Lancellotti inicia en la línea del tiempo de vides y parrales en el año 2005, cuando Rodolfo y María Urbana eligieron hacer realidad el sueño de una 
@@ -23,7 +23,7 @@ const Bodega = () => {
         <img src={imagen3} alt="Imagen 3" className="bodega-img" />
         <img src={imagen4} alt="Imagen 4" className="bodega-img" />
       </section>
-      <section className="text-container">
+      <section className="text-container seccion-con-fondo-1">
         <h2>proceso de fabricación del vino</h2>
         <p>
           En la finca se utiliza el sistema de conducción de espaldero alto de 1,80 metros y parral. Puede verse cómo los granos de uva, protegidos por el sol, 
