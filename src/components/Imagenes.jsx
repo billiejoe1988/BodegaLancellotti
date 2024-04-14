@@ -3,8 +3,14 @@ import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 const Imagenes = () => {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex) => {
+    setIndex(selectedIndex);
+  };
+
   return (
-    <section>
+    <section className='py-5'>
           <div>
             <h2>Imagenes</h2>
           </div>
