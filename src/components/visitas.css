@@ -1,6 +1,5 @@
-/* section {
-    display:flex;
-    justify-content: space-between;
-    gap: 0.25rem;
-    flex-wrap: wrap;
-} */
+.img-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
