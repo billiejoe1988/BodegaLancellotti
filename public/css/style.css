@@ -41,14 +41,12 @@ p {
 }
 
 a {
-    color: #608dfd;
     font-weight: 400;
 }
 
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #608dfd;
 }
 
 hr {
@@ -64,9 +62,6 @@ hr {
 .btn-custom {
     font-family: "Libre Baskerville", serif;
     text-transform: uppercase;
-    color: #fff;
-    background-color: #5ca9fb;
-    background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
     padding: 14px 34px;
     letter-spacing: 1px;
     font-size: 15px;
@@ -80,11 +75,7 @@ hr {
 .btn-custom:focus,
 .btn-custom.focus,
 .btn-custom:active,
-.btn-custom.active {
-    color: #fff;
-    background-image: none;
-    background-color: #6372ff;
-}
+.btn-custom.active,
 
 .btn:active,
 .btn.active {

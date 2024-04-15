@@ -11,9 +11,7 @@
   
   .banner,
   .card {
-    animation: slideIn 1s ease forwards;
     border-radius: 10px; 
-    padding: 20px; 
     margin-bottom: 20px; 
   }
   
