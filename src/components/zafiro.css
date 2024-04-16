@@ -9,9 +9,9 @@
 }
 
 .black-square {
-  margin: 0 auto; 
-  width: 80%;  
-  height: 1000px ; 
+  margin: 0 auto;
+  width: 80%;
+  height: auto; 
   background-color: #0B0C11;
   border-radius: 20px;
   z-index: -2;
@@ -27,7 +27,7 @@
 
 .logo {
   align-items: center;
-  width: 400px; 
+  width: 300px; 
   height: auto;
   margin: auto; 
   box-shadow: 0 0 20px #EADFCD; 

@@ -52,7 +52,6 @@ const Footer = () => {
                         ></iframe>
                     </section>
                 </div>
-
             </div>
         </footer>
     );

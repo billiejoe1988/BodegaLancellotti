@@ -18,12 +18,12 @@ const Zaphiro = () => {
             <img src="/zafiro.png" alt="Logo Zaphiro Eventos" className="logo" />
           </div>
           <div className="text-container">
-          <p className="white-text">
-            En Bodega Lancellotti, ofrecemos una oportunidad única para celebrar tus eventos empresariales y festividades, inmersos en el ambiente exclusivo de nuestra moderna bodega y acompañados de nuestros exquisitos vinos. Zafiro Eventos, nuestra empresa asociada, se encarga de la organización de estos eventos tanto de día como de noche, brindando una experiencia inolvidable en un entorno único y elegante.
-          </p>
-          <p className="white-text">
-            Desde reuniones corporativas hasta celebraciones especiales, nuestro equipo en Zafiro Eventos se encarga de cada detalle para asegurarse de que tu evento sea todo un éxito. No dudes en ponerte en contacto con nosotros para reservar tu próximo evento y crear momentos memorables en Bodega Lancellotti.
-          </p>
+            <p className="white-text py-3" style={{ fontSize: '16px', fontStyle: 'italic' }}>
+              En Bodega Lancellotti, ofrecemos una oportunidad única para celebrar tus eventos empresariales y festividades, inmersos en el ambiente exclusivo de nuestra moderna bodega y acompañados de nuestros exquisitos vinos. Zafiro Eventos, nuestra empresa asociada, se encarga de la organización de estos eventos tanto de día como de noche, brindando una experiencia inolvidable en un entorno único y elegante.
+            </p>
+            <p className="white-text py-3" style={{ fontSize: '16px', fontStyle: 'italic' }}>
+              Podes contactarnos para realizar reuniones corporativas hasta celebraciones especiales, nuestro equipo en Zafiro Eventos se encarga de cada detalle para asegurarse de que tu evento sea todo un éxito. No dudes en ponerte en contacto con nosotros para reservar tu próximo evento y crear momentos memorables en Bodega Lancellotti.
+            </p>
           </div>
         </div>
       <div className="carousel-container">
