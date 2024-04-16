@@ -49,4 +49,25 @@
     color: #C96939; 
   }
   
-  
+.custom-padding-left {
+  padding-right: 15px;
+}
+
+.custom-padding-right {
+  padding-left: 15px;
+}
+
+.custom-margin-right {
+  margin-right: 15px;
+}
+
+.custom-margin-left {
+  margin-left: 15px;
+}
+.card2{
+  margin-top: 500px;
+}
+.card-img {
+  width: 100%;
+  height: auto;
+}

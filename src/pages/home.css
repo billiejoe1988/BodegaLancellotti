@@ -21,3 +21,14 @@
     object-fit: cover; 
   }
   
+  #zafiro-eventos,
+  #imagenes, 
+  #perspicazz {
+    margin-bottom: 150px; 
+  }
+  
+ #familia{
+  margin-top: 150px;
+  margin-bottom: 100px; 
+}
+

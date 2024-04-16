@@ -20,7 +20,7 @@ const Bodega = () => {
         </p>
       </section>
       <section className="img-container py-10">
-        <img src={imagen3} alt="Imagen 3" className="bodega-img" />
+        <img src={imagen3} alt="Imagen 3" className="bodega-img margen-derecho" />
         <img src={imagen4} alt="Imagen 4" className="bodega-img" />
       </section>
       <section className="text-container seccion-con-fondo-1">
@@ -33,9 +33,6 @@ const Bodega = () => {
           Además, la bodega está equipada con tanques de acero inoxidable y tecnología de última generación con la finalidad de elaborar vinos de alta calidad que conquisten 
           el paladar de consumidores exigentes y de aquellos que pretenden incursionar en el camino del vino.
         </p>
-      </section>
-      <section className="img-container">
-
       </section>
     </div>
   );

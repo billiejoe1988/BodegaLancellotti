@@ -15,7 +15,7 @@ const Home = () => {
         <section className="banner"> 
           <img src={homeImage} alt="Banner principal" className="banner-image" /> 
         </section>
-        <section id="familia"> <Nosotros /> </section>
+        <section id="familia" style={{ backgroundColor: '#EADFCD'}}> <Nosotros /> </section>
         <section id="perspicazz"> <Perspicaz /> </section>
         <section id="bodega"> <Bodega /> </section>
         <section id="visitas"> <Visitas /> </section>

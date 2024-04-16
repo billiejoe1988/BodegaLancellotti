@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <footer id="footer" className="footer-container" style={{ backgroundImage: `url(${fondoFooter})`, backgroundSize: 'cover' }}>
             <div className="tarjeta seccion-con-fondo-1" style={{ backgroundColor: '#EADFCD ', borderRadius: '10px', fontFamily: 'Libre Baskerville'}}>
-                <div className="contacto" style={{ fontFamily: 'Libre Baskerville' }}>
+                <div className="contacto pt-5" style={{ fontFamily: 'Libre Baskerville' }}>
                     <h1 style={{fontSize: '40px', fontWeight: 'bold'}}>Contacto</h1>
                 </div>
                 <div className="footer-container">

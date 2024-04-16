@@ -12,10 +12,14 @@
 }
 
 .bodega-img {
-  width: 30%;
+  width: 28%;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
+}
+
+.margen-derecho {
+  margin-right: -425px;
 }
 
 .bodega-img:hover {
@@ -34,4 +38,12 @@
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;
+}
+
+.img-izquierda {
+  flex-grow: 1; /* La imagen 3 tomará más espacio */
+}
+
+.img-derecha {
+  flex-grow: 1; /* La imagen 4 tomará más espacio */
 }
