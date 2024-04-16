@@ -43,7 +43,7 @@ const Footer = () => {
                         <h2 style={{ color: '#31190D' }}>Ubicación</h2>
                         <iframe
                             title="Bodega lancellotti"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22484.304922252453!2d-68.37531794509552!3d-33.100882474332025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e5aca74cc9151%3A0x89d3017090764f11!2sLa%20Cautiva%20-%20Turismo%20Rural!5e0!3m2!1ses!2sar!4v1713104683886!5m2!1ses!2sar"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254236.32652667025!2d-68.49739841359757!3d-33.15078949328633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e5b2ee09ddead%3A0x68c9346e7d305a97!2sBodega%20Lancellotti%20-%20Salon%20Zafiro!5e0!3m2!1ses!2sar!4v1713280206278!5m2!1ses!2sar"
                             width="100%"
                             height="335"
                             allowFullScreen=""
