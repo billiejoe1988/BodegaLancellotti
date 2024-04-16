@@ -7,7 +7,8 @@
 
 .img-container {
   display: flex;
-  justify-content: space-around; 
+  flex-wrap: wrap; 
+  justify-content: space-around;
   margin-bottom: 20px;
 }
 
@@ -26,14 +27,14 @@
   transform: scale(1.05);
 }
 
-.seccion-con-fondo{
+.seccion-con-fondo {
   background-image: url('/detailR.png');
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
 }
 
-.seccion-con-fondo-1{
+.seccion-con-fondo-1 {
   background-image: url('/detail.png');
   background-repeat: no-repeat;
   background-position: left;
@@ -41,9 +42,20 @@
 }
 
 .img-izquierda {
-  flex-grow: 1; /* La imagen 3 tomará más espacio */
+  flex-grow: 1;
 }
 
 .img-derecha {
-  flex-grow: 1; /* La imagen 4 tomará más espacio */
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 700px) {
+  .bodega-img {
+    width: 80%; 
+    margin-bottom: 20px; 
+  }
+
+  .margen-derecho {
+    margin-right: 0; 
+  }
 }

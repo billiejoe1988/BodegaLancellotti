@@ -1,0 +1,89 @@
+.visitas-section {
+  background-color: #EADFCD;
+  text-align: center;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 70%;
+}
+
+.accordion-section {
+  color: #31190D;
+}
+
+.accordion-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.accordion-image {
+  flex: 1;
+}
+
+.accordion-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-text {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.accordion-text p {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+}
+
+.accordion-text Button {
+  background-color: #6E493A;
+  color: #F3E9DF;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.accordion-text Button a {
+  text-decoration: none;
+  color: #F3E9DF;
+}
+
+@media (max-width: 1000px) {
+    .accordion-item {
+      max-width: 90%; 
+      margin: 0 auto; 
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .accordion-item {
+      max-width: 100%; 
+    }
+  }
+  @media (max-width: 480px) {
+    .accordion-item {
+      max-width: 100%; 
+    }
+  
+    .white-text {
+      font-size: 14px; 
+    }
+  
+    .accordion-image img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .accordion-text {
+      padding: 10px; 
+    }
+  }
+  
