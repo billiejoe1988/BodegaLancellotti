@@ -58,5 +58,21 @@
     max-width: 850px;
     max-height: 600px;
     margin: 0 auto;
+}
 
+@media (max-width: 600px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-container {
+        margin-top: 20px; 
+    }
+
+    .tarjeta {
+        max-width: 100%; 
+        margin-top: 20px; 
+    }
 }
