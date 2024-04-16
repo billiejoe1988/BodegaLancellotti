@@ -11,7 +11,7 @@ export const NavBar = () => {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
       <Navbar.Brand href="/" style={{ fontFamily: 'Libre Baskerville' }}>
-        <Image src={Logo} alt="Logo" width="100" height="50" style={{ paddingLeft: '10px', boxShadow: 'none' }} />
+        <Image src={Logo} alt="Logo" width="120" height="50" style={{ paddingLeft: '10px', boxShadow: 'none' }} />
       </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

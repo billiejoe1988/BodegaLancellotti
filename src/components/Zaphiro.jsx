@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './zafiro.css';
-import Bodega from './Bodega';
 
 const Zaphiro = () => {
   const [index, setIndex] = useState(0);
