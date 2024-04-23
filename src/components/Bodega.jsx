@@ -28,7 +28,7 @@ const Bodega = () => {
         <p>
           En la finca se utiliza el sistema de conducción de espaldero alto de 1,80 metros y parral. Puede verse cómo los granos de uva, protegidos por el sol, 
           cuelgan de ese techo verde como campanas. El riego se realiza a través de un sistema denominado “a manto”; el agua, que proviene del deshielo de la 
-          Cordillera de Los Andes, corre por diferentes acequias o hijuelas. Las personas que allí viven, los cosechadores, son quienes con sus manos laboriosas cuidan 
+          Cordillera de Los Andes, corre por diferentes acequias o hijuelas. Las personas que allí viven, los trabajadores, son quienes con sus manos laboriosas cuidan 
           día a día que esta red de vides sea una de las mejores vistas para el turista, quien puede admirar el esfuerzo mientras realiza el recorrido por la finca. 
           Además, la bodega está equipada con tanques de acero inoxidable y tecnología de última generación con la finalidad de elaborar vinos de alta calidad que conquisten 
           el paladar de consumidores exigentes y de aquellos que pretenden incursionar en el camino del vino.

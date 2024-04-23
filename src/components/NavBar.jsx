@@ -25,7 +25,7 @@ export const NavBar = () => {
             <Nav.Link href="#footer">Contacto</Nav.Link>
           </Nav>
           <Nav style={{ fontFamily: 'Libre Baskerville' }}>
-            <Nav.Link href="https://google.com" target="_blank" rel="noopener noreferrer">La Cautiva</Nav.Link>
+            <Nav.Link href="https://www.lacautivaturismo.com/" target="_blank" rel="noopener noreferrer">La Cautiva</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

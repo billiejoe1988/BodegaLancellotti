@@ -36,7 +36,7 @@ const Nosotros = () => {
             <Carousel.Item>
               <img
                 className="d-block w-100 rounded"
-                src="/img/c2.jpg"
+                src="/c1.jpg"
                 alt="Second slide"
                 style={{ maxHeight: '400px', objectFit: 'cover' }}
               />
@@ -47,7 +47,7 @@ const Nosotros = () => {
             <Carousel.Item>
               <img
                 className="d-block w-100 rounded"
-                src="/img/c1.jpg"
+                src="/c2.jpg"
                 alt="Third slide"
                 style={{ maxHeight: '400px', objectFit: 'cover' }}
               />

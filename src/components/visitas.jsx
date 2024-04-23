@@ -25,7 +25,7 @@ const Visitas = () => {
                                     <div className="accordion-content">
                                         <div className="accordion-image">
                                             <Card variant="primary">
-                                                <img src="/salud.jpg" alt="hospedaje" className="img-fluid" />
+                                                <img src="/i1.jpg" alt="hospedaje" className="img-fluid" style={{ maxHeight: '400px', objectFit: 'cover' }} />
                                             </Card>
                                         </div>
                                         <div className="accordion-text">
@@ -45,7 +45,7 @@ const Visitas = () => {
                                     <div className="accordion-content">
                                         <div className="accordion-image">
                                             <Card variant="primary">
-                                                <img src="/cautiva.jpg" alt="hospedaje" className="img-fluid" />
+                                                <img src="/cautiva.jpg" alt="hospedaje" className="img-fluid" style={{ maxHeight: '400px', objectFit: 'cover' }} />
                                             </Card>
                                         </div>
                                         <div className="accordion-text">
@@ -53,7 +53,27 @@ const Visitas = () => {
                                                 “La Cautiva” es otro de los espacios de este emprendimiento familiar. Un hospedaje diseñado para el descanso y el disfrute del turismo que nos visita. Su nombre tiene la fuerza de la montaña, del sol, del aire del este mendocino. Su arquitectura protege lo tradicional, como la galería custodiada por verdes enredaderas en ciertas estaciones del año.
                                             </p>
                                             <Button>
-                                                <a href="https://www.example.com" target="_blank">La Cautiva</a>
+                                                <a href="https://www.lacautivaturismo.com/" target="_blank" >La Cautiva</a>
+                                            </Button>
+                                        </div>
+                                    </div>
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="2">
+                                <Accordion.Header>Espacio Urbana</Accordion.Header>
+                                <Accordion.Body>
+                                    <div className="accordion-content">
+                                        <div className="accordion-image">
+                                            <Card variant="primary">
+                                                <img src="/d1.jpg" alt="hospedaje" className="img-fluid" style={{ maxHeight: '400px', objectFit: 'cover' }} />
+                                            </Card>
+                                        </div>
+                                        <div className="accordion-text">
+                                            <p>
+                                                “Espacio Urbana” es otro de los espacios de este emprendimiento familiar. Un sector para degustraciones y el disfrute del turismo que nos visita. Recibiendolos como ustedes se merecen, probando nuestros vinos con la mejor comida Argentina.
+                                            </p>
+                                            <Button>
+                                                <a href="#footer" target="_blank">Reservas</a>
                                             </Button>
                                         </div>
                                     </div>

@@ -18,33 +18,49 @@ const Imagenes = () => {
         <Carousel.Item>
           <img
             className="d-block w-100 rounded img-fluid"
-            src="/bodega1.jpg"
+            src="/i0.jpg"
             alt="First slide"
-            style={{ maxHeight: '400px', objectFit: 'cover' }}
+            style={{ maxHeight: '500px', objectFit: 'cover' }}
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 rounded img-fluid"
-            src="/visita1.jpg"
+            src="/i7.jpg"
             alt="Second slide"
-            style={{ maxHeight: '400px', objectFit: 'cover' }}
+            style={{ maxHeight: '500px', objectFit: 'cover' }}
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 rounded img-fluid"
-            src="/im1.jpg"
+            src="/i00.jpg"
             alt="Third slide"
-            style={{ maxHeight: '400px', objectFit: 'cover' }}
+            style={{ maxHeight: '500px', objectFit: 'cover' }}
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 rounded img-fluid"
-            src="/im2.jpg"
+            src="/i4.jpg"
             alt="Third slide"
-            style={{ maxHeight: '400px', objectFit: 'cover' }}
+            style={{ maxHeight: '500px', objectFit: 'cover' }}
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 rounded img-fluid"
+            src="/i000.jpg"
+            alt="Third slide"
+            style={{ maxHeight: '500px', objectFit: 'cover' }}
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 rounded img-fluid"
+            src="/i8.jpg"
+            alt="Third slide"
+            style={{ maxHeight: '500px', objectFit: 'cover' }}
           />
         </Carousel.Item>
         <Carousel.Item>
@@ -52,15 +68,7 @@ const Imagenes = () => {
             className="d-block w-100 rounded img-fluid"
             src="/im3.jpg"
             alt="Third slide"
-            style={{ maxHeight: '400px', objectFit: 'cover' }}
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100 rounded img-fluid"
-            src="/img/c1.jpg"
-            alt="Third slide"
-            style={{ maxHeight: '400px', objectFit: 'cover' }}
+            style={{ maxHeight: '500px', objectFit: 'cover' }}
           />
         </Carousel.Item>
       </Carousel>
