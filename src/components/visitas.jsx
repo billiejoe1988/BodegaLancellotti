@@ -73,7 +73,7 @@ const Visitas = () => {
                                                 “Espacio Urbana” es otro de los espacios de este emprendimiento familiar. Un sector para degustraciones y el disfrute del turismo que nos visita. Recibiendolos como ustedes se merecen, probando nuestros vinos con la mejor comida Argentina.
                                             </p>
                                             <Button>
-                                                <a href="#footer" target="_blank">Reservas</a>
+                                                <a href="#footer">Reservas</a>
                                             </Button>
                                         </div>
                                     </div>
