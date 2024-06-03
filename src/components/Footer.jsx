@@ -32,7 +32,7 @@ const Footer = () => {
                                 <span>
                                     <i className="fa fa-envelope-o"></i> Email:
                                 </span>
-                                <a href="mailto:bodega@zafiro.com">bodega@zafiro.com</a>
+                                <a href="mailto:bodegalancellotti@gmail.com">bodegalancellotti@gmail.com</a>
                             </p>
                         </div>
                         <div className="copyright">
